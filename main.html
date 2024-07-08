@@ -3,25 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Question</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        /* .question-container {
+        .question-container {
             max-width: 600px;
-            margin: 10px ;
-            padding: 15px;
-            border: 8px solid #ccc;
-            border-radius: 10px;
-            background-color: #f8fffe;
-        } */
-        .options {
-            margin: 10px 0;
-        }
-        blockquote {
-            max-width: 600px;
-            margin: 10px auto;
+            margin: 10px;
             padding: 15px;
             border-left: 8px solid green;
             background-color: #f8fffe;
@@ -31,17 +16,13 @@
 </head>
 <body>
     <div class="question-container">
-        <h2>What is the capital of India?</h2>
-        <div class="options">
-            <input type="radio" id="new-delhi" name="capital" value="New Delhi">
-            <label for="new-delhi">New Delhi</label><br>
-            <input type="radio" id="mumbai" name="capital" value="Mumbai">
-            <label for="mumbai">Mumbai</label>
-        </div>
-        <blockquote>
-            "New Delhi is the capital of India and an administrative district of NCT Delhi." 
-            <br>- Wikipedia
-        </blockquote>
+        <p>What is the capital of India?</p>
+        <input type="radio" name="answer" value="New Delhi"> New Delhi<br>
+        <input type="radio" name="answer" value="Mumbai"> Mumbai<br>
     </div>
+    <blockquote>
+        New Delhi is the capital of India and an administrative district of NCT Delhi.
+        <footer><cite><a href="https://en.wikipedia.org/wiki/New_Delhi" target="_blank">Wikipedia</a></cite></footer>
+    </blockquote>
 </body>
 </html>
